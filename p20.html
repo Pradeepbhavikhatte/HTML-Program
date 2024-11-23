@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Tags</h1>
+
+    <!-- form - form element
+        optional->fieldset,legend
+        input
+        label
+        select
+        textarea
+        button:submit
+    -->
+        <form action="path" method="post" enctype="" autocomplete="off" id="" name="">
+            <fieldset>
+                <legend>Login Form</legend>
+
+                <label for="user">Username</label>
+                <input type="text" name="user" id="user" placeholder="Enter username here" value="admin@gmail.com" readonly required>
+
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" placeholder="passwords" required>
+
+                <input type="submit" value="login" disabled>
+                <input type="reset">
+
+            </fieldset>
+        </form>
+
+        <!-- form attributes 
+            action =>url address of the server
+            method =>get = display the input values in browser address bar 
+                    post = hides the input values
+            enctype => urlencoded encryption type is default
+                       multipart-formdata = choose if input type file is in the form
+            autocomplete => on - autofill data is enabled
+                            off - disabled the autofill
+        -->
+</body>
+</html>

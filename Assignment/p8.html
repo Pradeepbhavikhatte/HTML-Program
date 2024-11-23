@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="nickName">Nick Name</label>
+                <input type="text" id="nickName" name="nickName">
+            </div>
+            <div class="form-group">
+                <label for="email">e-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Others
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile</label>
+                <input type="tel" id="mobile" name="mobile" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" rows="4"></textarea>
+            </div>
+            <div class="form-buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
